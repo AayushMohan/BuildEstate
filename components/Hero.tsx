@@ -19,6 +19,7 @@ const Hero = (props: Props) => {
         />
         <div className="md:absolute z-50 text-slate-200 text-5xl font-medium md:top-1/3 md:right-1/3">
           <h1>Let's Find a house </h1>that's perfect for you
+          <p>Search Confidently</p>
         </div>
       </div>
     </div>
