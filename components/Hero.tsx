@@ -23,8 +23,10 @@ const Hero = (props: Props) => {
         <p className="md:absolute z-50 text-slate-200 text-xl md:top-2/4 md:right-1/4">
           Search Confidently with your trusted source of homes of sale rent
         </p>
-        <div>
-          <input type="text" />
+        <div className="absolute md:top-1/3 right-2/4">
+          <form action="">
+            <input type="" className="" />
+          </form>
         </div>
       </div>
     </div>
