@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import { ChevronDownIcon, PlayIcon } from "@heroicons/react/20/solid";
+import Image from "next/image";
+import logo from "../assets/logo.svg";
 
 type Props = {};
 
@@ -9,10 +11,7 @@ const Header = (props: Props) => {
   return (
     <motion.div className="flex justify-around p-4 m-4 items-center">
       <div className="flex text-3xl space-x-4 font-bold items-center">
-        <img
-          src="https://img.icons8.com/nolan/64/b.png"
-          className="h-10 w-10"
-        />
+        <Image src={logo} className="" />
         <h1 className="text-gray-700">
           <span className="text-indigo-600">Build</span>
           Estate

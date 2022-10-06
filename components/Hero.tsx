@@ -74,7 +74,6 @@ const Hero = (props: Props) => {
             className="h-28 mt-3"
           />
         </div>
-        <hr className="p-2 " />
       </div>
     </div>
   );
