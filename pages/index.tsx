@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Houses from "../components/Houses";
 import Work from "../components/Work";
 
 const Home: NextPage = () => {
@@ -19,6 +20,10 @@ const Home: NextPage = () => {
 
       <section id="work">
         <Work />
+      </section>
+
+      <section id="houses">
+        <Houses />
       </section>
     </div>
   );
