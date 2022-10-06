@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="flex">
+    <div className="flex flex-col h-screen">
       <div className="px-10  md:relative">
         <Image
           src="https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80"
@@ -38,6 +39,42 @@ const Hero = (props: Props) => {
             </button>
           </form>
         </div>
+      </div>
+      <div>
+        <h2 className="text-gray-300 mt-8 font-bold text-center">
+          Trusted by 20,000+ companies
+        </h2>
+
+        <div className="p-4 flex items-center justify-evenly">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/272/Google_2015_logo-512.png"
+            alt=""
+            className="h-36"
+          />
+          <h2 className="text-4xl font-bold text-gray-800">Booking.com</h2>
+
+          <div className="flex items-center justify-center space-x-2">
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/logos-22/24/professional-tool-basecamp--tool-basecamp-professional-512.png"
+              alt="BaseCamp"
+              className="h-14"
+            />
+            <h2 className="text-3xl font-bold text-gray-800">BaseCamp</h2>
+          </div>
+
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/microsoft-512.png"
+            alt=""
+            className="h-36"
+          />
+
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/amazon-512.png"
+            alt=""
+            className="h-28 mt-3"
+          />
+        </div>
+        <hr className="p-2 " />
       </div>
     </div>
   );
