@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import dotted from "../assets/dotted.svg";
+import dots from "../assets/dots.svg";
+import WorkCards from "./WorkCards";
 type Props = {};
 
 const Work = (props: Props) => {
   return (
     <div className="h-screen">
-      <hr className="p-8" />
+      <hr className="pb-8" />
       <div className="bg-slate-100 h-[400px] relative  p-20 rounded-[30px] m-10 text-left">
         <div className="absolute -top-10 right-1/4">
           <Image src={dotted} height={80} width={80} />
@@ -16,9 +18,13 @@ const Work = (props: Props) => {
         <p className="text-md text-slate-400 px-1 pt-2">
           Full Service Agents, Modern Technologies
         </p>
-        <button className="py-3 px-5 bg-violet-200 rounded-2xl text-indigo-600 absolute right-24 -my-20">
+        <button className="py-3 px-7 bg-violet-200/60 rounded-2xl text-indigo-600 absolute right-24 -my-20">
           See more
         </button>
+        <div className="absolute right-14 top-32">
+          <Image src={dots} width={80} height={80} />
+        </div>
+        <WorkCards />
       </div>
     </div>
   );
