@@ -1,13 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import dotted from "../assets/dotted.svg";
+import ApartmentCards from "./ApartmentCards";
 
 type Props = {};
 
 const Apartments = (props: Props) => {
   return (
     <div className="h-screen">
-      <div className="bg-slate-100 h-[400px] relative  p-20 rounded-[30px] m-10 text-left">
+      <div className="bg-slate-100 h-[600px] relative  p-20 rounded-[30px] m-10 text-left">
         <div className="absolute -top-10 right-1/4">
           <Image src={dotted} height={80} width={80} />
         </div>
@@ -19,10 +20,16 @@ const Apartments = (props: Props) => {
           Own the Home Meant for You.
         </p>
         <button className="py-3 px-7 bg-violet-200/60 rounded-2xl text-indigo-600 absolute right-24 -my-20">
+          Recently Added
+        </button>
+        <button className="py-3 px-7 bg-violet-200/60 rounded-2xl text-indigo-600 absolute right-24 -my-20">
           See more
         </button>
-        <div className="absolute right-14 top-32">
+        <div className="absolute -right-10 top-10">
           <Image src={dotted} width={80} height={80} />
+        </div>
+        <div>
+          <ApartmentCards />
         </div>
       </div>
     </div>
