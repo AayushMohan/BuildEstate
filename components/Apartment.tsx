@@ -1,3 +1,4 @@
+import { PlayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
 import dotted from "../assets/dotted.svg";
@@ -19,8 +20,9 @@ const Apartments = (props: Props) => {
         <p className="text-md text-slate-400 px-1 pt-2">
           Own the Home Meant for You.
         </p>
-        <button className="py-3 px-7 bg-violet-200/60 rounded-2xl text-indigo-600 absolute right-24 -my-20">
-          Recently Added
+        <button className="py-6 flex items-center justify-between px-32 bg-white rounded-2xl text-slate-500 absolute right-64 -my-20">
+          <span className="absolute right-28">Recently Added</span>
+          <PlayIcon className="rotate-90 h-3 w-3 absolute top-1/3 right-4" />
         </button>
         <button className="py-3 px-7 bg-violet-200/60 rounded-2xl text-indigo-600 absolute right-24 -my-20">
           See more

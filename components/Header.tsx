@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import { ChevronDownIcon, PlayIcon } from "@heroicons/react/20/solid";
+import { PlayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import logo from "../assets/logo.svg";
 
