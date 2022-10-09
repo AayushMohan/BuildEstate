@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Apartment from "../components/Apartment";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Houses from "../components/Houses";
@@ -29,6 +30,10 @@ const Home: NextPage = () => {
 
       <section id="Apartment">
         <Apartment />
+      </section>
+
+      <section id="Footer">
+        <Footer />
       </section>
     </div>
   );

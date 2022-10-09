@@ -43,14 +43,14 @@ const ApartmentCards = (props: Props) => {
           </div>
           <div className="absolute bottom-0 left-6">
             <h1 className="text-2xl font-medium text-slate-500 text-left">
-              The Grand Estate
+              Hostel Estate
             </h1>
             <p className="my-2 text-slate-500/90 font-light text-left">
               Moscow, 121B
             </p>
 
-            <span className="absolute -right-10 bottom-2 text-xl text-indigo-700">
-              $521
+            <span className="absolute -right-24 bottom-2 text-xl text-indigo-700">
+              $412
             </span>
           </div>
         </div>
@@ -67,14 +67,14 @@ const ApartmentCards = (props: Props) => {
           </div>
           <div className="absolute bottom-0 left-6">
             <h1 className="text-2xl font-medium text-slate-500 text-left">
-              The Grand Estate
+              The Great Hotel
             </h1>
             <p className="my-2 text-slate-500/90 font-light text-left">
               Moscow, 121B
             </p>
 
-            <span className="absolute -right-10 bottom-2 text-xl text-indigo-700">
-              $521
+            <span className="absolute -right-20 bottom-2 text-xl text-indigo-700">
+              $261
             </span>
           </div>
         </div>
@@ -91,13 +91,13 @@ const ApartmentCards = (props: Props) => {
           </div>
           <div className="absolute bottom-0 left-6">
             <h1 className="text-2xl font-medium text-slate-500 text-left">
-              The Grand Estate
+              Vox Estate
             </h1>
             <p className="my-2 text-slate-500/90 font-light text-left">
               Moscow, 121B
             </p>
 
-            <span className="absolute -right-10 bottom-2 text-xl text-indigo-700">
+            <span className="absolute -right-32 bottom-2 text-xl text-indigo-700">
               $521
             </span>
           </div>
