@@ -6,7 +6,7 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div className="h-80 relative">
+    <div className="h-60 relative">
       <div className="border border-b-1" />
       <div className="flex text-3xl space-x-4 font-bold items-center p-10 mx-14">
         <Image src={logo} className="" />
@@ -18,7 +18,9 @@ const Footer = (props: Props) => {
           The shortest distance between paradise and the place you call home.
         </p>
       </div>
-      <div className="border border-b-1 w-[315px] rotate-90 absolute bottom-1/2 right-[600px] " />
+      <div className="border border-b-1 w-[238px] rotate-90 absolute bottom-1/2 right-[600px] " />
+
+      <div></div>
     </div>
   );
 };
