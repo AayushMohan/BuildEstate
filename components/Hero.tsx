@@ -31,7 +31,7 @@ const Hero = (props: Props) => {
             <input
               type="search"
               placeholder="Enter an address, neighborhood, city, or ZIP code"
-              className="w-[800px] items-center px-4 py-3.5 rounded-2xl"
+              className="w-[800px] items-center px-4 py-3.5 rounded-2xl focus:outline-none"
             />
             <button className="absolute text-gray-200 right-0 top-0 flex items-center my-1.5 mx-1 py- px-4 bg-indigo-600 rounded-2xl">
               <MagnifyingGlassIcon className="h-10 p-2" />
