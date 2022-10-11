@@ -26,6 +26,7 @@ const Houses = (props: Props) => {
             priority
             className="rounded-2xl cards cursor-pointer"
           />
+
           <h2 className="text-center font-bold text-slate-500 m-4 text-xl">
             Enjoy the great cold
           </h2>
