@@ -18,6 +18,7 @@ const Header = (props: Props) => {
         </h1>
       </div>
 
+      {/* Need to Add Framer Motion */}
       <div className="flex space-x-8 text-gray-500">
         <Link href="">Home</Link>
         <Link href="">How It's Work</Link>
