@@ -18,15 +18,14 @@ const Header = (props: Props) => {
         </h1>
       </div>
 
-      {/* Need to Add Framer Motion */}
-      <div className="flex space-x-8 text-gray-500">
+      <motion.div className="flex space-x-8 text-gray-500">
         <Link href="">Home</Link>
         <Link href="">How It's Work</Link>
         <Link href="">Agent</Link>
         <Link href="">Sales</Link>
-      </div>
+      </motion.div>
 
-      <div className="flex space-x-4">
+      <motion.div className="flex space-x-4">
         <button className="px-10 py-2 bg-slate-100 text-gray-500 rounded-xl relative">
           USD
           <PlayIcon className="rotate-90 h-3 w-3 absolute top-1/3 right-4" />
@@ -35,7 +34,7 @@ const Header = (props: Props) => {
         <button className="bg-indigo-600 text-gray-100 px-4 py-3 rounded-xl">
           Contact Us
         </button>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
