@@ -2,12 +2,13 @@ import Image from "next/image";
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="flex flex-col h-screen">
+    <motion.div className="flex flex-col h-screen">
       <div className="px-10  md:relative">
         <Image
           src="https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80"
@@ -75,7 +76,7 @@ const Hero = (props: Props) => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
