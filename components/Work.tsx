@@ -3,11 +3,13 @@ import React from "react";
 import dotted from "../assets/dotted.svg";
 import dots from "../assets/dots.svg";
 import WorkCards from "./WorkCards";
+import { motion } from "framer-motion";
+
 type Props = {};
 
 const Work = (props: Props) => {
   return (
-    <div className="h-screen">
+    <motion.div className="h-screen">
       <hr className="pb-8" />
       <div className="bg-slate-100 h-[400px] relative  p-20 rounded-[30px] m-10 text-left">
         <div className="absolute -top-10 right-1/4">
@@ -26,7 +28,7 @@ const Work = (props: Props) => {
         </div>
         <WorkCards />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
