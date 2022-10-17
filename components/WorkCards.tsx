@@ -1,10 +1,11 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 type Props = {};
 
 const WorkCards = (props: Props) => {
   return (
-    <div className="mt-14 -mx-14 flex justify-around">
+    <motion.div className="mt-14 -mx-14 flex justify-around">
       <div className="default-card">
         <div className=" bg-violet-200 rounded-full w-16 flex p-4 my-8">
           <img src="https://img.icons8.com/sf-regular-filled/48/4338ca/topic.png" />
@@ -48,7 +49,7 @@ const WorkCards = (props: Props) => {
           and invalid apartments
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
