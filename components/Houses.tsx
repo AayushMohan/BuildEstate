@@ -24,7 +24,7 @@ const Houses = (props: Props) => {
             objectFit="cover"
             objectPosition="center"
             priority
-            className="rounded-2xl cards hover:rounded-2xl cursor-pointer"
+            className="rounded-2xl cards cursor-pointer"
           />
 
           <h2 className="text-center font-bold text-slate-500 m-4 text-xl">
