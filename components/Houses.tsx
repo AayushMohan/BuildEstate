@@ -22,7 +22,7 @@ const Houses = (props: Props) => {
             width={400}
             height={450}
             objectFit="cover"
-            // objectPosition="center"
+            objectPosition="center"
             priority
             className="rounded-2xl cards cursor-pointer"
           />
